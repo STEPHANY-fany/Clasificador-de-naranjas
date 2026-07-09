@@ -67,7 +67,7 @@ Las características extraídas incluyen:
 
 Ejemplo del archivo generado con las características extraídas:
 
-![Características extraídas]("C:\Users\steph\Downloads\caracteriticas.png")
+![Características extraídas]("características.png")
 
 Estas características fueron almacenadas en un archivo CSV para posteriormente entrenar el modelo.
 
@@ -130,7 +130,7 @@ Ejemplo del resultado:
 ```
 Clase: madura | 95.4%
 ```
-![Resultado del  prediccion](imagenes/resultados.png)
+![Resultado del  prediccion](resultados.png)
 ---
 
 #  Tecnologías utilizadas
