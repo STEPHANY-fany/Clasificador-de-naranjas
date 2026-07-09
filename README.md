@@ -67,7 +67,7 @@ Las características extraídas incluyen:
 
 Ejemplo del archivo generado con las características extraídas:
 
-![Características extraídas](características.png)
+![Características extraídas](caracteriticas.png)
 
 Estas características fueron almacenadas en un archivo CSV para posteriormente entrenar el modelo.
 
