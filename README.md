@@ -15,7 +15,7 @@ Actualmente el sistema trabaja con imágenes individuales y se tiene como objeti
 
 ---
 
-# 📂 Dataset
+# Dataset
 
 Para la creación del conjunto de datos se realizaron aproximadamente **100 fotografías de naranjas**, distribuidas entre las diferentes clases del proyecto.
 
@@ -51,21 +51,23 @@ Se utilizó el detector de bordes de **Canny** para obtener información del con
 
 ---
 
-#  Extracción de características
+# Extracción de características
 
-Después del procesamiento, se obtuvieron diferentes variables numéricas de cada imagen:
+Después del procesamiento digital de las imágenes, se obtuvieron diferentes características numéricas de cada naranja. Estas variables fueron almacenadas en un archivo CSV generado mediante Python, el cual posteriormente fue utilizado para entrenar el modelo de clasificación.
 
-| Característica | Descripción |
-|---|---|
-| Área | Tamaño de la región detectada |
-| Perímetro | Longitud del contorno de la naranja |
-| Circularidad | Forma aproximada de la naranja |
-| Media H | Promedio del tono de color en HSV |
-| Media S | Promedio de saturación |
-| Media V | Promedio de intensidad |
-| Cantidad de bordes | Información obtenida mediante Canny |
-| Porcentaje de manchas | Área afectada por posibles daños |
-| Clase | Etiqueta correspondiente a la naranja |
+Las características extraídas incluyen:
+
+- Área de la naranja.
+- Perímetro del contorno.
+- Circularidad.
+- Valores promedio del espacio de color HSV (H, S y V).
+- Cantidad de bordes detectados mediante Canny.
+- Porcentaje de manchas.
+- Clase correspondiente de la naranja.
+
+Ejemplo del archivo generado con las características extraídas:
+
+![Características extraídas]("C:\Users\steph\Downloads\caracteriticas.png")
 
 Estas características fueron almacenadas en un archivo CSV para posteriormente entrenar el modelo.
 
