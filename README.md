@@ -130,7 +130,7 @@ Ejemplo del resultado:
 ```
 Clase: madura | 95.4%
 ```
-
+![Resultado del  prediccion](imagenes/resultados.png)
 ---
 
 #  Tecnologías utilizadas
